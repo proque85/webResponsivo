@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Encuesta</title>
+</head>
+
+<body>
+    <header>
+        <H1 id="title">Encuesta</H1>
+        <p id="description">Formulario Freecodecamp</p>
+    </header>
+    <main>
+        <fieldset>
+            <form action="#" method="post" id="survey-form">
+                <label for="name" id="name-label">Nombre</label>
+                <input type="text" name="name" id="name" placeholder="Ingrese su Nombre" required>
+                <label for="email" id="email-label">Email</label>
+                <input type="email" name="email" id="email" placeholder="Ingrese su Correo Electronico" required>
+                <label for="number" id="number-label">Edad</label>
+                <input type="number" name="number" id="number" min="20" max="80" placeholder="Ingrese su edad">
+                <label for="">Seleccione Nivel Academico:</label>
+                <select name="" id="dropdown">
+                    <option value="">Seleccione</option>
+                    <option value="tsu">TSU</option>
+                    <option value="ingeniero">INGENIERO</option>
+                    <option value="postgrado">POST-GRADO</option>
+                </select>
+
+                <p>Ingrese Nivel de Experiencia:</p>
+                <label for="junior">
+                    <input type="radio" name="Experiencia" id="junior" value="J" class="input-radio"
+                        checked>Junior</label>
+                <label for="semiSenior">
+                    <input type="radio" name="Experiencia" id="semiSenior" value="SS"
+                        class="input-radio">Semi-Senior</label>
+                <label for="senior">
+                    <input type="radio" name="Experiencia" id="senior" value="S" class="input-radio">Senior</label>
+
+                <p>Ingrese sus Habilidades:</p>
+                <label for="html">
+                    <input type="checkbox" name="checkbox1" id="html" value="html" class="input-checkbox">
+                    HTML</label>
+                <label for="css">
+                    <input type="checkbox" name="checkbox2" id="css" value="css" class="input-checkbox">
+                    CSS</label>
+                <label for="javascripts">
+                    <input type="checkbox" name="checkbox3" id="javascripts" value="javascripts" class="input-checkbox">
+                    JAVASCRIPTS</label>
+                <label for="git">
+                    <input type="checkbox" name="checkbox4" id="git" value="git" class="input-checkbox">
+                    GIT</label>
+                <label for="sql">
+                    <input type="checkbox" name="checkbox5" id="sql" value="sql" class="input-checkbox">
+                    SQL</label>
+                <label for="php">
+                    <input type="checkbox" name="checkbox6" id="php" value="php" class="input-checkbox">
+                    PHP</label>
+                <label for="reactNative">
+                    <input type="checkbox" name="checkbox7" id="reactNative" value="reactnative" class="input-checkbox">
+                    REACT-NATIVE</label>
+
+
+
+                <label for="comentario">Comentario:</label>
+                <textarea name="comentario" id="comentario" cols="30" rows="5"
+                    placeholder="Ingreso su Comenterio"></textarea>
+
+                <button type="submit" id="submit">Enviar Informacion</button>
+            </form>
+        </fieldset>
+    </main>
+    <footer>
+
+    </footer>
+</body>
+
+</html>
