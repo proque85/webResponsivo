@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Landing Page</title>
+</head>
+
+<body>
+    <header id="header">
+
+        <img src="assets/Potenza.png" alt="Logo Digital Potenza" id="header-img">
+
+        <nav id="nav-bar">
+            <a href="#contacto" class="nav-link">Contacto</a>
+            <a href="#videos" class="nav-link">Mis Servicios</a>
+            <a href="#precio" class="nav-link">Precios</a>
+        </nav>
+    </header>
+    <main>
+        <div id="hero__info">
+            <h1>
+                <p>Hola! soy Roque Potenza.</p>
+                <p>Desarrollador y Diseñador Web!!!!!</p>
+            </h1>
+            <h2>Transformando pasiones a realidades</h2>
+            <div class="hero__wave" style="overflow: hidden">
+                <svg viewBox="0 0 500 150" preserveAspectRatio="none" style="height: 100%; width: 100%">
+                    <path d="M0.00,49.98 C149.99,150.00 349.20,-49.98 500.00,49.98 L500.00,150.00 L0.00,150.00 Z"
+                        style="stroke: none; fill: rgb(255, 255, 255)"></path>
+                </svg>
+            </div>
+        </div>
+
+        <section id="fases">
+            <div class="infoFases">
+                <p><img src="assets/code.png" alt="code" class="faseImg">Analizo tus Requerimientos</p>
+                <p><img src="assets/desarrollo.png" alt="desarrollo" class="faseImg">Desarrollo o Diseño tu web.</p>
+                <p><img src="assets/desarrolloWeb.png" alt="diseñoWeb" class="faseImg">Implementamos tu sitio en la
+                    Web.
+                </p>
+            </div>
+        </section>
+        <div id="videos"></div>
+        <br><br><br><br><br><br>
+        <video id="video" controls autoplay>
+            <source src="assets/video.mp4" type="video/mp4">
+            Su navegador no soporta este formato de Video
+        </video>
+        <br><br><br><br><br><br>
+        <div id="precio"></div>
+        <br><br><br><br><br><br>
+        <div class="precios" id="precios">
+            <div class="items-precios">
+                <div class="title-items-precios">
+                    <p>Emprendedor</p>
+                </div>
+                <div class="body-items-precios">
+                    <p>
+                    <ul>
+                        <li>✔Sistema de Reservas</li>
+                        <li>✔Optimización Seo Basico</li>
+                        <li>✔Adaptabilidad a móviles</li>
+                        <li>✔05 Correos corporativos</li>
+                        <li>✔Llamadas directas al celular</li>
+                        <li>✔Chat Empresarial</li>
+                        <li>✔Chat de WhatsApp</li>
+                        <li>✔Chat de Facebook</li>
+                        <li>✔Redes Sociales</li>
+                        <li>✔Google Maps</li>
+                        <li>✔Google Analytics</li>
+                        <li>✔Blog Integrado</li>
+                    </ul>
+
+                    </p>
+                </div>
+                <span>200$</span><br>
+                <input type="button" value="solicitar" id="buttonSolicitar">
+            </div>
+            <div class="items-precios">
+                <div class="title-items-precios">
+                    <p>Dinamico</p>
+                </div>
+                <div class="body-items-precios">
+                    <p>
+                    <ul>
+                        <li>✔Cértificado de SSL Gratuito</li>
+                        <li>✔Optimización SEO</li>
+                        <li>✔Adaptabilidad a móviles</li>
+                        <li>✔05 Correos corporativos</li>
+                        <li>✔Llamadas directas al celular</li>
+                        <li>✔Chat Empresarial</li>
+                        <li>✔Chat de WhatsApp</li>
+                        <li>✔Chat de Facebook</li>
+                        <li>✔Redes Sociales</li>
+                        <li>✔Google Maps</li>
+                        <li>✔Google Analytics</li>
+                        <li>✔Blog Integrado</li>
+                    </ul>
+
+                    </p>
+                </div>
+                <span>300$</span><br>
+                <input type="button" value="solicitar" id="buttonSolicitar">
+            </div>
+            <div class="items-precios">
+                <div class="title-items-precios">
+                    <p>E-commerce</p>
+                </div>
+                <div class="body-items-precios">
+                    <p>
+                    <ul>
+                        <li>✔Cértificado de SSL Gratuito</li>
+                        <li>✔Catálogo de Productos</li>
+                        <li>✔Integración de pagos en línea: PayPal, Tarjetas débito y crédito.</li>
+                        <li>✔Optimización SEO</li>
+                        <li>✔Adaptabilidad a móviles</li>
+                        <li>✔05 Correos corporativos</li>
+                        <li>✔Chat de WhatsApp</li>
+                        <li>✔Chat de Facebook</li>
+                        <li>✔Redes Sociales</li>
+                        <li>✔Google Maps</li>
+                        <li>✔Google Analytics</li>
+                        <li>✔Blog Integrado</li>
+
+                    </ul>
+                    </p>
+                </div>
+                <span>390$</span><br>
+                <input type="button" value="solicitar" id="buttonSolicitar">
+            </div>
+        </div>
+        <form action="https://www.reecodecamp.com/email-submit" method="post" id="form">
+            <label for="email" id="label-email">Para mas Información: </label>
+            <input type="email" name="email" id="email" placeholder="Ingrese su Email" required>
+            <input type="submit" value="Registrar" id="submit">
+        </form>
+    </main>
+    <footer>
+        <div class="container-footer" id="contacto">
+            <p id="inf-footer">
+                Desarrollado Por Roque Potenza
+            </p>
+
+
+            <a class="fab fa-facebook-f footer__icon"
+                href="https://www.facebook.com/DigitalPotenza-106005507814172"></a>
+
+
+            <a class="fab fa-github footer__icon" href="https://github.com/proque85"></a>
+
+
+            <a class="fab fa-instagram footer__icon" href="https://www.instagram.com/digitalpotenza/"></a>
+
+
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/b3a49e9f5a.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
