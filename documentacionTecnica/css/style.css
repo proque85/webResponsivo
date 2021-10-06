@@ -1,0 +1,163 @@
+#main-doc {
+    position: absolute;
+    margin-left: 350px;
+    padding: 10px;
+    text-align: justify;
+    margin-bottom: 100px;
+    width: 800px;
+}
+
+#navbar {
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+    top: 0px;
+    left: 0px;
+    width: 290px;
+    height: 350px;
+
+}
+
+#navbar>header {
+    background-color: azure;
+    padding-left: 10px;
+    text-align: center;
+}
+
+
+.nav-link {
+    display: inline-block;
+    text-decoration: none;
+    width: 100%;
+    padding: 5px;
+    color: #fff;
+    text-align: center;
+}
+
+#navbar>ul {
+    margin-left: -38px;
+    margin-top: 0;
+    padding-left: 10px;
+}
+
+
+#navbar>ul>li {
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+    padding: 20px;
+    background-color: rgba(122, 121, 121, 0.74);
+    border: 2px solid #fff;
+}
+
+#navbar>ul>li:hover {
+    background-color: rgba(122, 121, 121, 0.986);
+
+}
+
+pre {
+
+    background-color: rgb(95, 95, 95);
+    color: #fff;
+    font-weight: 700;
+}
+
+code {
+    position: relative;
+    left: -65px;
+}
+
+
+@media screen and (max-width:800px) {
+    #main-doc {
+        margin-left: 10px;
+        max-width: 90%;
+        margin-top: 80px;
+    }
+
+    #navbar {
+
+        flex-direction: column;
+        justify-content: flex-start;
+        height: 70px;
+        width: 100%;
+        position: relative;
+        z-index: 100;
+    }
+
+    #navbar>header {
+        width: 100%;
+        font-size: 12px;
+        margin-left: 0px;
+
+    }
+
+    #navbar>ul {
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        width: 100%;
+        margin-top: 1px;
+        padding-left: 40px;
+    }
+
+    #navbar>ul>li {
+        width: 100%;
+        font-size: 14px;
+
+    }
+
+    pre {
+        overflow: scroll;
+    }
+
+
+}
+
+@media screen and (max-width:500px) {
+    #main-doc {
+        margin-left: 15px;
+        max-width: 85%;
+        margin-top: 20px;
+    }
+
+    #navbar {
+        height: 200px;
+        max-width: 100%;
+        position: relative;
+        z-index: 100;
+        overflow-y: scroll;
+
+    }
+
+    #navbar>header {
+        max-width: 100%;
+        font-size: 12px;
+        margin-left: 0px;
+
+    }
+
+    #navbar>ul {
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-start;
+        max-width: 100%;
+        margin-top: 1px;
+
+
+    }
+
+    #navbar>ul>li {
+        max-width: 100%;
+        font-size: 14px;
+
+
+    }
+
+    pre {
+        overflow: scroll;
+    }
+
+
+
+}
